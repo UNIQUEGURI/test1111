@@ -51,16 +51,16 @@ Asked one of the devs and he told me:
 
 Still wanna get banned? here
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FEverythingSuckz%2Ftgvc-video-tests&envs=API_ID%2CAPI_HASH%2CSESSION%2CSUDO%2CBOT_TOKEN&optionalEnvs=BOT_TOKEN&API_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org%2Fapps&API_HASHDesc=Get+this+value+from+my.telegram.org%2Fapps&SESSIONDesc=get+it+from+https%3A%2F%2Freplit.com%2F%40ayrahikari%2Fpyrogram-session-maker&SUDODesc=The+user+IDs+of+users+who+have+access+to+bot+commands&BOT_TOKENDesc=Get+this+from+%40BotFather&SUDODefault=919209968&referralCode=WRENCH)   
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FEverythingSuckz%2Ftgvc-video-tests%2Ftree%2Fbeta&envs=API_ID%2CAPI_HASH%2CSESSION%2CSUDO%2CBOT_TOKEN&optionalEnvs=BOT_TOKEN&API_IDDesc=Get+this+value+from+https%3A%2F%2Fmy.telegram.org%2Fapps&API_HASHDesc=Get+this+value+from+my.telegram.org%2Fapps&SESSIONDesc=get+it+from+https%3A%2F%2Freplit.com%2F%40ayrahikari%2Fpyrogram-session-maker&SUDODesc=The+user+IDs+of+users+who+have+access+to+bot+commands&BOT_TOKENDesc=Get+this+from+%40BotFather&SUDODefault=919209968&referralCode=WRENCH)   
 </details>  
 
 ## Known Issues
 
-- Video and audio sync issues.
+- ~~Video and audio sync issues.~~ (not anymore)
 - Some stream links may not be streamed.
 - Less audio quality.
-- breaks / lags in video.
-- In workflows, the `!stop` commands usually kills the whole bot.
+- breaks / lags in video when you play live videos
+- ~~In workflows, the `!stop` commands usually kills the whole bot.~~
 
 ## FaQ
 
@@ -71,15 +71,5 @@ Still wanna get banned? here
 
 </details>  
 
-<details>
-    <summary>  My bot died when I used !stop, any way to restart the workflow?</summary>
 
-**Fortunately, There is**
-
-* Goto the `actions` tab in your forked repository.
-* Switch to `Run on workflows` tab.
-* Press the `Run workflow` button.
-
-</details>  
-
-Made with [pytgcalls](https://github.com/MarshalX/tgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram) ❤️
+Made with [Py-TgCalls](https://github.com/pytgcalls/pytgcalls) and [pyrogram](https://github.com/pyrogram/pyrogram) ❤️

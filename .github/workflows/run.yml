@@ -3,7 +3,7 @@ on:
     schedule:
       - cron: "0 */6 * * *"
     push:
-      branches: [ main ]
+      branches: [ beta ]
     workflow_dispatch:
     
 env:
@@ -24,11 +24,15 @@ jobs:
          with:
             all_but_latest: true
             access_token: ${{ github.token }}
+       - uses: actions/setup-node@v2
+         with:
+            node-version: '16'
        - name: Set up Python 3.9
          uses: actions/setup-python@v2.2.2
          with:
            python-version: 3.9
        - name: cloning repo and install
+
          continue-on-error: true
          run: |
            sudo apt -qq update && sudo apt -qq install -y --no-install-recommends ffmpeg neofetch
